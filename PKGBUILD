@@ -13,7 +13,7 @@ depends=(
     'libxrandr'
     'libxss'
     'libxinerama'
-    'alsa-lib'
+    'alsa-utils'
 )
 makedepends=('git' 'stack')
 conflicts=('xmobar')
