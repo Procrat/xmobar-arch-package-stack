@@ -1,6 +1,6 @@
 # Maintainer: Stijn Seghers <stijnseghers at gmail dot com>
 
-pkgname=xmobar
+pkgname=xmobar-procrat
 pkgver=0.46
 pkgrel=1
 pkgdesc='Minimalistic Text Based Status Bar'
@@ -21,7 +21,7 @@ provides=('xmobar')
 
 
 build() {
-    stack install "${pkgname}-${pkgver}" \
+    stack install "xmobar-${pkgver}" \
         --local-bin-path . \
         --flag xmobar:-all_extensions \
         --flag xmobar:-with_xrender \
