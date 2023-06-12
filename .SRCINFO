@@ -1,0 +1,19 @@
+pkgbase = xmobar-procrat
+	pkgdesc = Minimalistic Text Based Status Bar
+	pkgver = 0.46
+	pkgrel = 1
+	url = https://codeberg.org/xmobar/xmobar
+	arch = x86_64
+	license = BSD
+	makedepends = git
+	makedepends = stack
+	depends = pango
+	depends = libx11
+	depends = libxrandr
+	depends = libxss
+	depends = libxinerama
+	depends = alsa-utils
+	provides = xmobar
+	conflicts = xmobar
+
+pkgname = xmobar-procrat
