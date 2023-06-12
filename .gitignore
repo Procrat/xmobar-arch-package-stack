@@ -3,3 +3,4 @@
 *.xz
 *.tgz
 *.zst
+*.stack-work/
